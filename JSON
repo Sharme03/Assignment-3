@@ -1,0 +1,77 @@
+For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+Ans :
+
+var data = [
+{
+    person:"Joe",
+    age:"20",
+    company:"Google"
+},
+{
+    person:"Mahi",
+    age:"25",
+    company:"Amazon"
+},
+{
+    person:"Sasi",
+    age:"27",
+    company:"CTS"
+},
+{
+    person:"Venkat",
+    age:"29",
+    company:"Guvi"
+}
+];
+
+// Normal For Loop
+
+for(var i = 0; i < data.length; i++){
+    var obj = data[i];
+    console.log(obj);
+}
+
+Output:
+{ person: 'Joe', age: '20', company: 'Google' }
+{ person: 'Mahi', age: '25', company: 'Amazon' }
+{ person: 'Sasi', age: '27', company: 'CTS' }
+{ person: 'Venkat', age: '29', company: 'Guvi' }
+
+//For Each Loop
+data.forEach(function(obj){
+    console.log(obj);
+})
+
+Output:
+{ person: 'Joe', age: '20', company: 'Google' }
+{ person: 'Mahi', age: '25', company: 'Amazon' }
+{ person: 'Sasi', age: '27', company: 'CTS' }
+{ person: 'Venkat', age: '29', company: 'Guvi' }
+
+
+// for in loop
+
+for(var i in data){
+    console.log(data[i]);
+}
+
+Output:
+{ person: 'Joe', age: '20', company: 'Google' }
+{ person: 'Mahi', age: '25', company: 'Amazon' }
+{ person: 'Sasi', age: '27', company: 'CTS' }
+{ person: 'Venkat', age: '29', company: 'Guvi' }
+
+
+//for of Loop
+for(var obj of data){
+    console.log(obj);
+}
+
+Output:
+{ person: 'Joe', age: '20', company: 'Google' }
+{ person: 'Mahi', age: '25', company: 'Amazon' }
+{ person: 'Sasi', age: '27', company: 'CTS' }
+{ person: 'Venkat', age: '29', company: 'Guvi' }
+
+
