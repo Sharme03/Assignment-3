@@ -1,0 +1,62 @@
+Create your own resume data in JSON format
+
+Ans Code:
+
+{ 
+    "meta": {
+        "theme": "stackoverflow"
+      },
+      "basic": {
+         "name": "Sharmela Devi",
+         "email": "sharmela.devi86@gamil.com",
+         "phone": "8056275930",
+         "sumary":"xyz",
+         "location": {
+             "address": "No 4, xyz st",
+             "city": "Chennai",
+             "Pincode": "600118",
+            },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "sharme03",
+                "url": "https://github.com/Sharme03"
+            }]
+        },
+        "education": [
+            {
+              "studyType": "Master of Science",
+              "major": "Computer Science",
+              "institution": "University of Madras",
+              "area": "Your area of study or degree earned",
+              "startDate": "2014-06",
+              "endDate": "2016-05",
+            }
+          ],
+          "projects": [
+            {
+              "name": "Cloud Computing Project",
+              "description": "Networking in cloud computing "
+            }
+          ],
+          "skills": [
+            {
+              "name": "Frontend",
+              "keywords": [
+                "Javascript",
+                "HTML",
+              ]
+            }
+          ],
+          "languages": [
+            {
+              "language": [
+                  "English",
+                  "Tamil",
+                  "Telugu",
+                  "Korean"
+              ]
+            }
+          ]
+
+      }
