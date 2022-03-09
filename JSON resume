@@ -2,7 +2,7 @@ Create your own resume data in JSON format
 
 Ans Code:
 
-{ 
+{
     "meta": {
         "theme": "stackoverflow"
       },
@@ -14,7 +14,7 @@ Ans Code:
          "location": {
              "address": "No 4, xyz st",
              "city": "Chennai",
-             "Pincode": "600118",
+             "Pincode": "600118"
             },
         "profiles": [
             {
@@ -30,7 +30,7 @@ Ans Code:
               "institution": "University of Madras",
               "area": "Your area of study or degree earned",
               "startDate": "2014-06",
-              "endDate": "2016-05",
+              "endDate": "2016-05"
             }
           ],
           "projects": [
@@ -44,7 +44,7 @@ Ans Code:
               "name": "Frontend",
               "keywords": [
                 "Javascript",
-                "HTML",
+                "HTML"
               ]
             }
           ],
@@ -59,4 +59,4 @@ Ans Code:
             }
           ]
 
-      }
+        }
